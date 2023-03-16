@@ -7,19 +7,19 @@ require "devise-twilio-verify/version"
 Gem::Specification.new do |spec|
   spec.name          = "devise-twilio-verify"
   spec.version       = DeviseTwilioVerify::VERSION
-  spec.authors       = ["Jay Wolff"]
+  spec.authors       = ["Injuryscripts"]
 
   spec.summary       = %q{Twilio Verify plugin to add two factor authentication to Devise.}
   spec.description   = %q{Twilio Verify plugin to add two factor authentication to Devise. This gem is meant to make migrating from authy to twilio verify as simple as possible, please see the README for details.}
-  spec.homepage      = "https://github.com/jayywolff/twilio-verify-devise"
+  spec.homepage      = "https://github.com/injuryscripts/twilio-verify-devise"
   spec.license       = "MIT"
 
   spec.metadata      = {
-    "bug_tracker_uri"   => "https://github.com/jayywolff/twilio-verify-devise/issues",
-    "change_log_uri"    => "https://github.com/jayywolff/twilio-verify-devise/blob/master/CHANGELOG.md",
-    "documentation_uri" => "https://github.com/jayywolff/twilio-verify-devise",
-    "homepage_uri"      => "https://github.com/jayywolff/twilio-verify-devise",
-    "source_code_uri"   => "https://github.com/jayywolff/twilio-verify-devise"
+    "bug_tracker_uri"   => "https://github.com/injuryscripts/twilio-verify-devise/issues",
+    "change_log_uri"    => "https://github.com/injuryscripts/twilio-verify-devise/blob/master/CHANGELOG.md",
+    "documentation_uri" => "https://github.com/injuryscripts/twilio-verify-devise",
+    "homepage_uri"      => "https://github.com/injuryscripts/twilio-verify-devise",
+    "source_code_uri"   => "https://github.com/injuryscripts/twilio-verify-devise"
   }
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
